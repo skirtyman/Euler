@@ -20,7 +20,7 @@ namespace projectEulerSolutions
         // Each solution is given as a static class so simply change the static class to the problem number that you want and 
         // run this solution. The answer should be given in the console. The problem has also been defined in the class definition 
         // in case you do not want to look at the website yourself. 
-
+        //This is a test comment. 
         static void Main(string[] args)
         {
             Problem1.Solve();
