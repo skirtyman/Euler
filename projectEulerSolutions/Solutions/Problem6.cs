@@ -34,9 +34,6 @@ namespace projectEulerSolutions.Solutions
 
         }
 
-        public static void golfSolve()
-        {
-
-        }
+        public static void golfSolve() { Console.WriteLine((3 * 100 * 100 + 2 * 100 * 100 * 100 - 3 * 100 - 2 * 100) / 12); }
     }
 }
