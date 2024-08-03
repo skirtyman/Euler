@@ -45,13 +45,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Solutions\Problem1.cs" />
-    <Compile Include="Solutions\Problem2.cs" />
-    <Compile Include="Solutions\Problem3.cs" />
-    <Compile Include="Solutions\Problem4.cs" />
-    <Compile Include="Solutions\Problem5.cs" />
-    <Compile Include="Solutions\Problem6.cs" />
-    <Compile Include="Solutions\Problem7.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem1.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem2.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem3.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem4.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem5.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem6.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem7.cs" />
+    <Compile Include="Solutions\Problems 1-50\Problem9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

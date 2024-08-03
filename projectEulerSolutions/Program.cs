@@ -1,4 +1,4 @@
-﻿using projectEulerSolutions.Solutions;
+﻿using projectEulerSolutions.Solutions.Problems_1_50;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +22,7 @@ namespace projectEulerSolutions
         // in case you do not want to look at the website yourself. 
         static void Main(string[] args)
         {
-            Problem7.golfSolve();
+            Problem9.Solve();
             Console.ReadLine();
         }
     }
