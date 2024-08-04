@@ -5,7 +5,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace projectEulerSolutions.Solutions
+namespace projectEulerSolutions.Solutions.Problems_1_50
 {
     /// <summary>
     /// Solution to Problem 3 on Project Euler. The problem is defined below: 

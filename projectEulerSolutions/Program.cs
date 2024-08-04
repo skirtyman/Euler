@@ -22,7 +22,7 @@ namespace projectEulerSolutions
         // in case you do not want to look at the website yourself. 
         static void Main(string[] args)
         {
-            Problem9.Solve();
+            Problem12.Solve();
             Console.ReadLine();
         }
     }
