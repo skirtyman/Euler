@@ -21,23 +21,22 @@ namespace projectEulerSolutions.Solutions.Problems_1_50
             }
             Console.WriteLine(nthTriangular(c));
 
-            //for (int i = 1; i <= 12375; i++)
-            //{
-            //    //Console.Write(nthTriangular(i) + "> ");
-            //    Console.WriteLine(findNumberOfDivisors(nthTriangular(i)));
-            //}
         }
 
-        private static double nthTriangular(int n) => 0.5 * n * (n + 1);
+        private static int nthTriangular(int n) => (int)(0.5 * n * (n + 1));
 
-        private static int findNumberOfDivisors(double n)
+        private static int findNumberOfDivisors(int n)
         {
-            int tot = 1; 
-            for (int i = 1; i <= Math.Sqrt(n)+1; i++)
+            int tot = 0; 
+            for (int i = 1; i <= (int)Math.Sqrt(n); i++)
             {
                 if (n % i == 0)
                 {
                     tot++;
+                    if (i != n / i)
+                    {
+                        tot++;
+                    }
                 }
             }
             return tot; 
