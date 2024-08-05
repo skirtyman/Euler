@@ -20,7 +20,6 @@ namespace projectEulerSolutions.Solutions.Problems_1_50
                 }
             }
             Console.WriteLine(nthTriangular(c));
-
         }
 
         private static int nthTriangular(int n) => (int)(0.5 * n * (n + 1));
