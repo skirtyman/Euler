@@ -10,16 +10,16 @@ namespace projectEulerSolutions.Solutions.Problems_1_50
     {
         public static void Solve()
         {
-            int limit = 1000000; 
+            int limit = 1000000;
             int longest = 0;
-            int start = 0; 
+            int start = 0;
             for (int i = limit / 2; i <= limit; i++)
             {
-                int length = collatzSequence(i).Item2.Length; 
+                int length = collatzSequence(i).Item2.Length;
                 if (length > longest)
                 {
                     longest = length;
-                    start = i; 
+                    start = i;
                 }
             }
             Console.WriteLine(start);
@@ -30,21 +30,21 @@ namespace projectEulerSolutions.Solutions.Problems_1_50
 
         private static long base2ChainLength(long n)
         {
-            return (long)Math.Log(n, 2); 
+            return (long)Math.Log(n, 2);
         }
 
         //Computes the collatz sequence given a starting point n.  
         private static (int, long[]) collatzSequence(long n)
         {
             long tmp = n;
-            long next; 
+            long next;
             List<long> chain = new List<long>();
             chain.Add(tmp);
             while (tmp > 1)
             {
                 next = oneStep(tmp);
                 chain.Add(next);
-                tmp = next; 
+                tmp = next;
             }
             return (chain.Count, chain.ToArray());
         }
