@@ -22,7 +22,14 @@ namespace projectEulerSolutions
         // in case you do not want to look at the website yourself. 
         static void Main(string[] args)
         {
-            Problem8.Solve();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            Problem14.Solve();
+            watch.Stop();
+            Console.WriteLine("Ticks taken (1 tick = 100ns): " + watch.ElapsedTicks.ToString());
+            Console.WriteLine("Basic Collatz: 39566259 ticks");
+            Console.WriteLine("Reduced number of chain calculations: 21217061 ticks");
+            Console.WriteLine("Functions inlined: 18160269 ticks");
+            Console.WriteLine("Using bitwise operations: 17887732"); 
             Console.ReadLine();
         }
     }
