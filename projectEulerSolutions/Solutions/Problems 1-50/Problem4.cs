@@ -43,7 +43,7 @@ namespace projectEulerSolutions.Solutions
             {
                 int digit = n % 10; 
                 n /= 10;
-                num = num +  digit;  
+                num = num + digit;  
             }
             return tmp == num; 
         }
