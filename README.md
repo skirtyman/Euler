@@ -8,7 +8,7 @@ The following repository contains all of my solutions to the problems defined on
         // may not be the most efficient method of solving these problems but this is the best way I can come up with. 
         // 
         // You may wish to use these programs to validate your own answers. As all solutions given within the repo have 
-        // given valid answers on the Project Euler website. Please for your own sake, use this code to just copy and paste
+        // given valid answers on the Project Euler website. Please for your own sake, don't use this code to just copy and paste
         // all of the correct answers. You are missing out on the enjoyment of programming. 
         // 
         // Each solution is given as a static class so simply change the static class to the problem number that you want and 
